@@ -4,6 +4,9 @@
 To design and develop a prototype application for Named Entity Recognition (NER) by leveraging a fine-tuned BART model and deploying the application using the Gradio framework for user interaction and evaluation.
 
 ### PROBLEM STATEMENT:
+Text data, especially from the web or internal documents, is vast and unstructured. Manually extracting specific pieces of information, such as names of people (PER), organizations (ORG), locations (LOC), or other miscellaneous entities (MISC), is time-consuming, prone to error, and inefficient.
+
+The problem is to develop an automated system that can process any given text, accurately identify these named entities, and classify them into their predefined categories. This system must also be wrapped in a simple, accessible web interface, allowing non-technical users to easily input text and visualize the model's predictions for testing and validation.
 
 ### DESIGN STEPS:
 
